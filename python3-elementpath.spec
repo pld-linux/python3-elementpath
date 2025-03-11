@@ -8,7 +8,7 @@ Summary(pl.UTF-8):	Parsery i selektory XPath 1.0/2.0/3.0 dla ElementTree oraz lx
 # beware of python3-xmlschema compatibility (xmlschema 2.1.x requires elementpath 3.x)
 Name:		python3-elementpath
 Version:	3.0.2
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/elementpath/
