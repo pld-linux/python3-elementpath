@@ -7,13 +7,13 @@ Summary:	XPath 1.0/2.0/3.0 parsers and selectors for ElementTree and lxml
 Summary(pl.UTF-8):	Parsery i selektory XPath 1.0/2.0/3.0 dla ElementTree oraz lxml
 # beware of python3-xmlschema compatibility (xmlschema 2.1.x requires elementpath 3.x)
 Name:		python3-elementpath
-Version:	3.0.2
-Release:	3
+Version:	4.8.0
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/elementpath/
 Source0:	https://files.pythonhosted.org/packages/source/e/elementpath/elementpath-%{version}.tar.gz
-# Source0-md5:	c4b193e1eb5148bdb493944036fdff20
+# Source0-md5:	1e598149c2761d660d89f7bba4fef20d
 URL:		https://pypi.org/project/elementpath/
 %if %(locale -a | grep -q '^C\.utf8$'; echo $?)
 BuildRequires:	glibc-localedb-all
